@@ -1,0 +1,18 @@
+{
+  "universal": {
+    "project": "MealTicket",
+    "skipInstall": false,
+    "directory": ".",
+    "http": true
+  },
+  "serverless": {
+    "provider": "aws",
+    "project": "MealTicket",
+    "skipInstall": false,
+    "directory": ".",
+    "serverless": {
+      "aws": {},
+      "gcloud": {}
+    }
+  }
+}
